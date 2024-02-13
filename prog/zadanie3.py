@@ -15,3 +15,8 @@ def calculate_sum_before_last_positive(*args):
         return None
 
     return sum_before_last_positive
+
+if __name__ == "__main__":
+    values = [2, -3, 4, -1, 5, -2]
+    result = calculate_sum_before_last_positive(*values)
+    print(f"The sum before the last positive number in {values} is: {result}")
